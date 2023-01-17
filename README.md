@@ -1,12 +1,14 @@
-# C# byte array serialitzation and Python deserilization
+# C# - Python byte array serialitzation and deserilization
 
 ## Project Description:
 
-This project demonstrates how to serialize a byte array in C# and deserialize it in Python. The primary use case is to work with images. The project contains two files:
+This project demonstrates how to serialize/deserialize a byte array in C# - Python and viceversa. The primary use case is to work with images. The project contains these files:
 
 **Program.cs**: A C# console project that creates a byte array of a specified image size, serializes it, and saves it to a file. It also includes a timestamp to measure the execution time.
 
-**main.py**: A Python script that reads the byte array from the file created by the C# project, deserializes it, and converts it to a numpy array. It also includes a timestamp to measure the execution time.
+**deserialize.py**: A Python script that reads the byte array from the file created by the C# project, deserializes it, and converts it to a numpy array. It also includes a timestamp to measure the execution time.
+
+**serialize.py**: A Python script that create a numpy array that containts center of a rectangle and widht and height and serialize numpy array to byte array.
 
 ## Installation Instructions:
 
@@ -18,9 +20,7 @@ This project demonstrates how to serialize a byte array in C# and deserialize it
 ## How to Run the Project:
 
 1. Run the C# code to generate the byte array and serialize it.
-2. Run the Python script to read it.
-
-Note: You can disable print results by setting 'print_results' variable as False.
+2. Run the Python script to read it. Note: You can disable print results by setting 'print_results' variable as False.
 
 ## Technologies Used:
 
