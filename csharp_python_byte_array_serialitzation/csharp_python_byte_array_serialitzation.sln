@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp_python_byte_array_serialitzation", "csharp_python_byte_array_serialitzation\csharp_python_byte_array_serialitzation.csproj", "{AF803471-FF3B-4A61-BF97-5E71452D092B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF803471-FF3B-4A61-BF97-5E71452D092B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF803471-FF3B-4A61-BF97-5E71452D092B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF803471-FF3B-4A61-BF97-5E71452D092B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF803471-FF3B-4A61-BF97-5E71452D092B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14595C15-C342-46A2-8F4E-8DB55EE429B6}
+	EndGlobalSection
+EndGlobal
